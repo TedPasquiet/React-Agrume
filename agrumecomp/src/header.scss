@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    background-color: #1ccc74;
+}
+.header_logo{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+.header_login{
+    color: white;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 20%;
+    text-align: center;
+}
