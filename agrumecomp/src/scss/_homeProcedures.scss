@@ -1,0 +1,42 @@
+.homeProcedures{
+    margin-top: 50px;
+}
+.homeProcedures_title{
+    display: flex;
+    align-items: baseline;
+    &_icon{
+        margin-right: 2%;
+        color: #18c973;
+        font-size: 40px;
+    }
+    &_text{
+        color: #797070;
+        font-size: 24px;
+    }
+}
+.homeProcedures_encours_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.homeProcedures_encours{
+    background-color: white;
+    padding: 5px 2% 5px 2%;
+    margin: 10px 0 10px 0;
+    box-shadow: 0 0 10px #c5c2bb;
+    &_unique{
+
+     &_nom{
+        font-weight: bold;
+     }
+     &_date{
+        color: #797070;
+     }
+     &_employeur{
+        color: #797070;
+     }
+     &_salarie{
+        color: #27cd7c;
+     }   
+    }
+}

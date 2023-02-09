@@ -1,0 +1,8 @@
+.nav_home{
+    display: flex;
+    justify-content: space-around;
+    &_div{
+        border-left: 1px solid #000;
+        border-right: 1px solid #000
+    }
+}

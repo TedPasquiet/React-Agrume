@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff4e4;
+    padding-top: 30px;
+}
+.main{
+    display: flex;
+    gap: 2%;
+    &_menu{
+        flex: 1 1 25%;
+        background-color: white;
+    }
+    &_calendar{
+        flex: 1 1 60%;
+        background-color: white;
+    }
+}
+.main_menu_procedure{
+    margin: 10px 2% 20px 10%;
+    border-left: 2px solid red;
+    padding-left: 3%;
+    &_type{
+
+    }
+    &_employeur{
+
+    }
+}
